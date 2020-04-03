@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: #f3f3f3;
+}
+
+.contenido{
+	width: 90%;
+	margin: auto;
+	padding: 50px;
+}
+
+
+.formulario-registro{
+	background-color: rgba(224,224,224,1);
+	width: 380px;
+	margin: 50px 0px;
+	padding: 20px;
+	box-shadow: 2px 2px 10px;
+}
+	.form-titulo{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.form-input{
+		width: 100%;
+		padding: 12px;
+		margin-bottom: 10px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #D0CCCC;
+	}
+		.form-input:focus{
+			outline: 1px solid;
+			outline-color: #BAB5B5;
+		}
+	
+	.form-input-checkbox{
+		margin-bottom: 20px;	
+	}
+	.formulario-registro label{
+		font-size: 15px;
+		margin-left: 5px;
+	}
+		.formulario-registro label a{
+			text-decoration: none;
+		}
+			.formulario-registro label a:hover{
+				text-decoration: underline;
+			}
+
+	#form-submit{
+		background-color: #FF7E00;
+		font-weight: bold;
+		color: #f4f4f4;
+		position: relative;
+		transition-duration: .2s;
+		outline-style: none;	
+	}
+		#form-submit:hover{
+			background-color: #FFA500;
+		}
+
+
+	img{
+		width: 400px;
+		margin-right: 50px;
+		border-radius: 20px;
+		transition-duration: 1s;
+	}
+		
+		img:hover{
+			transform: rotate(360deg);
+			
+		}
+
+	video{
+		width: 620px;
+		border-radius: 20px;
+		transition-duration: .5s
+	}
+		video:hover{
+			transform: scale(1.1);
+		}
+
+
